@@ -1,0 +1,118 @@
+/* Container principal */
+.todo-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Campo de entrada e seletor */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botão adicionar */
+#adicionar {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#adicionar:hover {
+    background-color: #0056b3;
+}
+
+/* Lista de tarefas */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* Cada tarefa */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+/* Botão concluir */
+li button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #1e7e34;
+}
+
+/* Estilo para prioridade Alta */
+.alta {
+    color: red;
+    background-color: #ffe5e5;
+}
+
+/* Estilo para prioridade Média */
+.media {
+    color: orange;
+    background-color: #fff5e5;
+}
+
+/* Estilo para prioridade Baixa */
+.baixa {
+    color: green;
+    background-color: #e5ffe5;
+}
+
+/* Estilo para tarefa concluída */
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #e0e0e0;
+}
+
+/* Botão remover */
+li .remover {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545; /* vermelho */
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+li .remover:hover {
+    background-color: #a71d2a;
+}

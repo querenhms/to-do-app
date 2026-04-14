@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>Minha To-Do List</h1>
+
+        <label for="tarefa">Descrição da tarefa:</label>
+        <input type="text" id="tarefa" placeholder="Digite sua tarefa">
+
+        <label for="prioridade">Prioridade:</label>
+        <select id="prioridade">
+            <option value="alta">Alta</option>
+            <option value="media">Média</option>
+            <option value="baixa">Baixa</option>
+        </select>
+
+        <button id="adicionar">Adicionar</button>
+
+        <p id="contador"></p>
+
+        <ul id="lista-tarefas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
